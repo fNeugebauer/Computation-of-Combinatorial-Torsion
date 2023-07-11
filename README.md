@@ -11,10 +11,11 @@ We implemented, among others, the following functions in SageMath:
 Moreover, we computed, among others, the following examples: 
 1. Some finite index covering spaces of the torus and the surface of genus $2$. 
 2. The Reidemeister torsions of the following lens spaces:
-		$$L(5;1,1), L(4;1,3,1),  L(5;2,3),  L(7;1,1),  L(7;1,2),  \mathbb{R}P^3.$$
+		$$L(5;1,1), \quad L(4;1,3,1), \quad  L(5;2,3),  \quad L(7;1,1), \quad  L(7;1,2),  \quad \mathbb{R}P^3.$$
 		We compared these numbers to the theoretical results in \cite[thm. 10.6]{turaev}.
 3. The Reidemeister torsions of the Poincar\'e homology sphere. 
 4. The Reidemeister torsions of the following products:
 		$$S_2 \times \mathbb{R}P^3,\quad L(3;1,1)\times \mathbb{R}P^2,\, L(3;1,1)\times S^2, L(3;1,2)\times \mathbb{R}P^2,$$
-    $$ L(3;1,2)\times S^2, L(3;1,2)\times L(3;1,1), L(3;1,2)\times \mathbb{C}P^2, \mathbb{R}P^3\times \mathbb{C}P^2. $$
-		These examples all satisfied the formula $\tau(X\times Y , \phi\otimes \psi)=\tau(X,\phi)^{\chi(Y)} \tau(Y, \psi)^{\chi(X)}$ for $\phi,\psi$ representations of $\pi_1(X)$ and $\pi_1(X)$, respectively.
+   as well as,
+   	$$ L(3;1,2)\times S^2, \quad L(3;1,2)\times L(3;1,1), \quad L(3;1,2)\times \mathbb{C}P^2, \quad \mathbb{R}P^3 \times \mathbb{C}P^2. $$
+   These examples all satisfied the formula $\tau(X\times Y , \phi\otimes \psi)=\tau(X,\phi)^{\chi(Y)} \tau(Y, \psi)^{\chi(X)}$ for $\phi,\psi$ representations of $\pi_1(X)$ and $\pi_1(X)$, respectively.
