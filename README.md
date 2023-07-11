@@ -1,7 +1,7 @@
 # Computation-of-Combinatorial-Torsion
 We implemented, among others, the following functions in SageMath:
 1. A function with has input a  simplicial set $X$ and a normal subgroup $N\subseteq \pi_1(X)$ with finite index. The function returns a covering projection $p: Z\to X$ such that $p_*\pi_1(Z) = N$ and $Z$ is connected. 
-2. A function with has input a  simplicial set $X$ and a normal subgroup $N\subseteq \pi_1(X)$ with finite index. The function returns a covering projection $p: Z\to X$ such that $p_*\pi_1(Z) = N$, $Z$ is connected and $p$ is given as the pullback of a universal covering projection  $\text{sk}_{\dim(X)}(EG) \to  \text{sk}_{\dim(X)}(BG)$, where $G:=\pi_1(X)/N$. 
+2. A function with has input a  simplicial set $X$ and a normal subgroup $N\subseteq \pi_1(X)$ with finite index. The function returns a covering projection $p: Z\to X$ such that $p_*\pi_1(Z) = N$, $Z$ is connected and $p$ is given as the pullback of a universal covering projection  $sk_{\dim(X)}(EG) \to  sk_{\dim(X)}(BG)$, where $G:=\pi_1(X)/N$. The function returns the pullback square. 
 3. A function that constructs the join of two simplicial sets, as well as, a function that constructs the join of morphisms of simplicial sets.
 4. A function that constructs the lens space $L(p;q_1,\dots, q_n)$ for given $p\in \mathbb{N}_{>0}$ and $q_1,\dots, q_n\in \mathbb{Z}$. 
 5. A function that computes the combinatorial torsion of a bounded, based chain complex of finite-dimensional $\mathbb{C}$-vector spaces. 
@@ -15,7 +15,7 @@ Moreover, we computed, among others, the following examples:
 		We compared these numbers to the theoretical results in \cite[thm. 10.6]{turaev}.
 3. The Reidemeister torsions of the Poincar\'e homology sphere. 
 4. The Reidemeister torsions of the following products:
-		$$S_2 \times \mathbb{R}P^3,\quad L(3;1,1)\times \mathbb{R}P^2,\, L(3;1,1)\times S^2, L(3;1,2)\times \mathbb{R}P^2,$$
+		$$S_2 \times \mathbb{R}P^3,\quad L(3;1,1)\times \mathbb{R}P^2,\quad  L(3;1,1)\times S^2, \quad L(3;1,2)\times \mathbb{R}P^2,$$
    as well as,
-   	$$ L(3;1,2)\times S^2, \quad L(3;1,2)\times L(3;1,1), \quad L(3;1,2)\times \mathbb{C}P^2, \quad \mathbb{R}P^3 \times \mathbb{C}P^2. $$
+   	$$L(3;1,2)\times S^2, \quad L(3;1,2)\times L(3;1,1), \quad L(3;1,2)\times \mathbb{C}P^2, \quad  \mathbb{R}P^3 \times \mathbb{C}P^2.$$
    These examples all satisfied the formula $\tau(X\times Y , \phi\otimes \psi)=\tau(X,\phi)^{\chi(Y)} \tau(Y, \psi)^{\chi(X)}$ for $\phi,\psi$ representations of $\pi_1(X)$ and $\pi_1(X)$, respectively.
