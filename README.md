@@ -14,7 +14,7 @@ Moreover, we computed, among others, the following examples:
 1. Some finite index covering spaces of the torus and the surface of genus $2$. 
 2. The Reidemeister torsions of the following lens spaces:
 		$$L(5;1,1), \quad L(4;1,3,1), \quad  L(5;2,3),  \quad L(7;1,1), \quad  L(7;1,2),  \quad \mathbb{R}P^3.$$
-		We compared these numbers to the theoretical results in \cite[thm. 10.6]{turaev}.
+		We compared these numbers to the theoretical result, which for example can be found in Turaev's book "Introduction to Topological Torsion" in theorem 10.6.
 3. The Reidemeister torsions of the Poincar\'e homology sphere. 
 4. The Reidemeister torsions of the following products:
 		$$S_2 \times \mathbb{R}P^3,\quad L(3;1,1)\times \mathbb{R}P^2,\quad  L(3;1,1)\times S^2, \quad L(3;1,2)\times \mathbb{R}P^2,$$
