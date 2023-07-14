@@ -1,4 +1,4 @@
-# Computation-of-Combinatorial-Torsion
+# Computation-of-Combinatorial-Torsions
 The Reidemeister torsion is a well-known invariant in the field of algebraic topology, but is generally difficult to calculate in practice. We developed an algorithm that calculates the Reidemeister torsion of the geometric realization of a simplicial set. We implemented the algorithm in SageMath and used it to numerically calculate the Reidemeister torsions of the Poincaré homology 3-sphere with respect to all irreducible complex representations of its fundamental group. Similar calculations were also performed for several lens and product spaces.  
 To obtain the algorithm for Reidemeister torsion we also touched upon the topic of torsions of chain complexes, as well as, on the topic of coverings of simplicial sets. So, also algorithms in the field of those concepts were devoloped. 
 We implemented, among others, the following functions in SageMath:
