@@ -1,5 +1,5 @@
 # Computation-of-Combinatorial-Torsion
-The Reidemeister torsion is a well-known invariant in the field of algebraic topology, but is generally difficult to calculate in practice. We developed an algorithm that calculates the Reidemeister torsion of the geometric realization of a simplicial set. We implemented the algorithm in SageMath and used it to numerically calculate the Reidemeister torsions of the Poincar\'e homology 3-sphere with respect to all irreducible complex representations of its fundamental group. Similar calculations were also performed for several lens and product spaces.  
+The Reidemeister torsion is a well-known invariant in the field of algebraic topology, but is generally difficult to calculate in practice. We developed an algorithm that calculates the Reidemeister torsion of the geometric realization of a simplicial set. We implemented the algorithm in SageMath and used it to numerically calculate the Reidemeister torsions of the Poincaré homology 3-sphere with respect to all irreducible complex representations of its fundamental group. Similar calculations were also performed for several lens and product spaces.  
 To obtain the algorithm for Reidemeister torsion we also touched upon the topic of torsions of chain complexes, as well as, on the topic of coverings of simplicial sets. So, also algorithms in the field of those concepts were devoloped. 
 We implemented, among others, the following functions in SageMath:
 1. A function with has input a  simplicial set $X$ and a normal subgroup $N\subseteq \pi_1(X)$ with finite index. The function returns a covering projection $p: Z\to X$ such that $p_*\pi_1(Z) = N$ and $Z$ is connected. 
@@ -15,7 +15,7 @@ Moreover, we computed, among others, the following examples:
 2. The Reidemeister torsions of the following lens spaces:
 		$$L(5;1,1), \quad L(4;1,3,1), \quad  L(5;2,3),  \quad L(7;1,1), \quad  L(7;1,2),  \quad \mathbb{R}P^3.$$
 		We compared these numbers to the theoretical result, which for example can be found in Turaev's book "Introduction to Topological Torsion" in theorem 10.6.
-3. The Reidemeister torsions of the Poincar\'e homology sphere. 
+3. The Reidemeister torsions of the Poincaré homology sphere. 
 4. The Reidemeister torsions of the following products:
 		$$S_2 \times \mathbb{R}P^3,\quad L(3;1,1)\times \mathbb{R}P^2,\quad  L(3;1,1)\times S^2, \quad L(3;1,2)\times \mathbb{R}P^2,$$
    as well as,
