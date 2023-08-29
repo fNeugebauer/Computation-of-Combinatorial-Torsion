@@ -21,3 +21,7 @@ Moreover, we computed, among others, the following examples:
    as well as,
    	$$L(3;1,2)\times S^2, \quad L(3;1,2)\times L(3;1,1), \quad L(3;1,2)\times \mathbb{C}P^2, \quad  \mathbb{R}P^3 \times \mathbb{C}P^2.$$
    These examples all satisfied the formula $\tau(X\times Y , \phi\otimes \psi)=\tau(X,\phi)^{\chi(Y)} \tau(Y, \psi)^{\chi(X)}$ for $\phi,\psi$ representations of $\pi_1(X)$ and $\pi_1(X)$, respectively.
+
+#Errata and Outlook:
+1. For changing coefficients via a representation matrices need to be inverted first.
+2. We have developed an algorithm that computes the torsion also symbolically. The code will be uploaded soon. 
